@@ -1,0 +1,233 @@
+/* YourComponent.css */
+
+.question-section {
+  padding: 1rem 0;
+  font-size: 1.2rem;
+  /* Adjust the padding as needed */
+}
+.clickable.clicked {
+  background-color: #4385ff;
+  /* add any other styles for the clicked state */
+}
+.clickable:hover {
+  background-color: #103b8a;
+  /* add any other styles for the hover effect */
+}
+
+.question-count {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  /* Add other styles as needed */
+}
+.question-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  /* Add other styles as needed */
+}
+.story-text {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  /* Add other styles as needed */
+}
+.title-text{
+  font-size: 3.2rem;
+  font-family:fangsong ;
+}
+
+
+.answer-section {
+  font-size: 2.2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.btn-secondary {
+  width: 75%;
+  padding: 1rem;
+  margin: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  /* Add a smooth transition effect */
+}
+
+.btn-primary.green {
+  background-color: #0a944f;
+  /* Green color for correct answers */
+  color: #fff;
+  /* White text for better visibility */
+}
+
+.btn-primary.red {
+  background-color: #d33f3a;
+  /* Red color for incorrect answers */
+  color: #fff;
+  /* White text for better visibility */
+}
+
+.label-success {
+  background-color: #0a944f;
+  /* Green color for correct answers */
+  color: #fff;
+  /* White text for better visibility */
+}
+
+.label-fail {
+  background-color: #d33f3a;
+  /* Green color for correct answers */
+  color: #fff;
+  /* White text for better visibility */
+}
+
+.btn-primary {
+  width: 50%;
+  padding: 0.5rem;
+  /* Add other styles as needed */
+}
+
+.video-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.video-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 15px;
+  border-radius: 8px;
+}
+
+.card-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* styles.css */
+.vertical-card-list {
+  display: flex;
+  flex-direction: column;
+  max-height: 700px;
+  /* Set a maximum height for the container */
+  overflow-y: auto;
+  /* Enable vertical scrolling when content overflows */
+  border: 1px solid #ccc;
+  /* Optional: Add a border for visual clarity */
+
+}
+
+.horizontal-card-list {
+  display: flex;
+  flex-direction: row;
+  max-height: 800px;
+  /* Set a maximum height for the container */
+  overflow-y: auto;
+  /* Enable vertical scrolling when content overflows */
+ 
+  /* Optional: Add a border for visual clarity */
+
+}
+
+
+
+/* MainPage.css */
+.main-title {
+  font-size: 4.5rem;
+  /* Increase the font size */
+  font-weight: bold;
+  color: #0d0d0e;
+  /* Set a specific color, e.g., blue */
+  margin-bottom: 20px;
+  text-align: center;
+  /* Center the text */
+  text-transform: uppercase;
+  /* Convert text to uppercase */
+  letter-spacing: 2px;
+  /* Add letter spacing */
+  border-bottom: 2px solid #ccc;
+  /* Add a bottom border */
+  padding-bottom: 10px;
+  /* Add padding to the bottom */
+  /* Add any other styles you desire */
+}
+.title-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.contact-header {
+  color: #1e3a8a; /* Header color */
+  text-align: center;
+}
+
+.contact-description {
+  text-align: center;
+  font-size: 18px;
+  color: #555;
+}
+
+.contact-card {
+  background-color: #f8f9fa; /* Card background color */
+  border: 1px solid #dee2e6; /* Card border color */
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Card box shadow */
+}
+
+.contact-card h3 {
+  color: #1e3a8a; /* Card title color */
+}
+
+.contact-info {
+  color: #555; /* Contact info color */
+  margin-bottom: 10px;
+}
+
+mark {
+  background-color: rgb(45, 119, 255);
+  color: black;
+  border: 1px solid #0d0d0e;
+  border-radius: 4px;
+}
+.hover-message {
+  background-color: rgb(87, 168, 206);
+  border: 1px solid #dee2e6; /* Card border color */
+  border-radius: 8px;
+  padding: 20px;
+  color: black;
+}
+/* GetStarted page */
+.getstarted-image{
+  width: 800px;
+  margin-left: -200px;
+}
+
+/* make the question container white  */
+.question-container{
+  background-color: #fff;
+  /* border: 3px solid #C0DEFB; */
+  margin-top: 20px;
+}
+
+.answer-button:hover{
+  background-color: #89CCFF;
+  cursor: pointer;
+}
